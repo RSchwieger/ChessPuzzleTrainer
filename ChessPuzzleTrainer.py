@@ -3,7 +3,7 @@ import chess
 from chess import uci
 from MyChessBoard import MyChessBoard
 import time
-from PuzzleCollection import PuzzleCollection, ChessPuzzle, ScheduledPuzzleCollection
+from PuzzleCollection import ScheduledPuzzleCollection
 import os.path
 import datetime
 
@@ -71,7 +71,6 @@ while not done:
         for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                         done = True
-                        print("Hier")
                         puzzleCollection.savePuzzlesIntoFile() # save results
                 if event.type == pygame.MOUSEBUTTONUP:
                     pos = pygame.mouse.get_pos()
