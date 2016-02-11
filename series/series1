@@ -1,0 +1,15 @@
+{"FEN": "3R4/pp1Rrqk1/2p4p/2P2ppP/P4b2/2PQ4/1P2r1P1/5NK1 w - - 0 1", "description": "White to move", "PGN": ""}
+{"FEN": "7Q/1bb2p2/6k1/1ppppNq1/4P1N1/2PPP3/1PK5/8 w - - 0 1", "description": "White to move", "PGN": ""}
+{"FEN": "r1bq1rk1/p4ppp/2p5/2b1p3/4P1n1/2NB1Q2/PPP3PP/R1B2R1K b - - 0 1", "description": "Black to move", "PGN": "1.Nxh2 2. Kxh2 Qh4+"}
+{"FEN": "3r2rk/7p/p4p1B/2bbpR2/1p5Q/1P4N1/1Pq3PP/6RK b - - 0 1", "description": "Black to move", "PGN":""}
+{"FEN": "r3k2r/3bbpp1/3pp2p/2q1P3/pn3PPP/1PP2N2/1P1QB3/1NKR1R2 b kq - 0 1", "description": "Black to move", "PGN": "1. Na2+ 2. Kc2 axb3+ 3. Kxb3 Ba4+"}
+{"FEN": "2b2rk1/1p4p1/2p2q1p/2P5/1P3n2/2N1Q3/5PBP/R5K1 b - - 0 1", "description": "Black to move", "PGN": "1. Qxc3 2. Qxc3 Ne2+ 3. Kf1 Nxc3"}
+{"FEN": "3r2k1/p3qppp/7n/1Bp1P3/4RP2/1PP3QP/P2r4/5RK1 b - - 0 1", "description": "Black to move", "PGN": "1.Qb7 "}
+{"FEN": "r5k1/r4pp1/3p3p/1B1P2nP/1qP3P1/3Q4/1P4R1/1K1R4 b - - 0 1", "description": "Black to move", "PGN": "1. Ra3 2. Qd4 Qb3"}
+{"FEN": "4r1k1/2R4p/3P1qnQ/2P5/1pN3p1/5P2/4nKB1/8 b - - 0 1", "description": "Black to move", "PGN": ""}
+{"FEN": "2r3k1/3q2bp/p1Rp4/Pp1P2p1/1P2Pp2/2B2Q1P/6P1/7K w - - 1 0", "description": "White to move", "PGN": "1.Bxg7 Rxc6 2. dxc6 Qxg7 3. e5 Qxe5 4. c7 "}
+{"FEN": "rn2r1kb/4pp1p/p2pPnpB/q2b2N1/2p2P2/4Q2P/PpP1B1P1/1K1R3R w - - 1 0", "description": "White to move", "PGN": "1. Rxd5 Qxd5 2. Bf3"}
+{"FEN": "rn2r1kb/4pp1p/p2pPnpB/q2b2N1/2p2P2/4Q2P/PpP1B1P1/1K1R3R w - - 1 0", "description": "White to move", "PGN": "1. Rxd5 Nxd5 2. exf7#"}
+{"FEN": "2r2k2/5pbQ/pp6/3Pp2R/n1n1B3/1N2q3/1PP4P/5R1K w - - 1 0", "description": "White to move", "PGN": ""}
+{"FEN": "1r1r4/4Q1pp/1kb1B3/p3R1P1/3P1q2/2P5/P7/K2R4 w - - 1 0", "description": "White to move", "PGN": ""}
+{"FEN": "1q4k1/1p3p1p/r1n3p1/1N1r4/P7/2Q4P/5PP1/R3R1K1 w - - 1 0", "description": "White to move", "PGN": "1. Nc7"}
