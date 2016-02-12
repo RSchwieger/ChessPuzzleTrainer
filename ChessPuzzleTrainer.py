@@ -47,7 +47,7 @@ except StopIteration:
     raise SystemExit
 
 pygame.display.set_caption(currentChessPuzzle.puzzleDict["description"])
-boardGUI = MyChessBoard(screenSize, chess.Board(currentChessPuzzle.FEN), screen)
+boardGUI = MyChessBoard(screenSize, chess.Board(currentChessPuzzle.FEN), screen, game=currentChessPuzzle.game)
 
 # Load chess engine
 engine = chess.uci.popen_engine("/usr/games/stockfish")
@@ -57,6 +57,8 @@ engine.position(boardGUI.board)
 def loadNextPuzzle():
     try:
         currentChessPuzzle = next(puzzleIterator)
+        #print("NächstesPuzzle")
+        #print(currentChessPuzzle.game)
         boardGUI.loadNewPosition(chess.Board(currentChessPuzzle.FEN), currentChessPuzzle.game)
         boardGUI.draw_board()
         if 'description' in currentChessPuzzle.puzzleDict:

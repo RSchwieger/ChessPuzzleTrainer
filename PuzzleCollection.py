@@ -29,7 +29,7 @@ class ChessPuzzle:
             #print(pgnString)
             self.PGN = StringIO(pgnString)
             self.game = chess.pgn.read_game(self.PGN)
-            print(self.game)
+            # print(self.game)
         else:
             self.puzzleDict['PGN'] = ""
             self.game = None

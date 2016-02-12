@@ -8,7 +8,7 @@ class MyChessBoard:
     """
     Gui for the chess.board
     """
-    def __init__(self, sizeX, cryptic_board, screen, moveValidation=None):
+    def __init__(self, sizeX, cryptic_board, screen, moveValidation=None, game=None):
         self.sizeRect = sizeX/8 # init size of square
         self.White = (255, 255, 255)
         self.Black = (0, 120, 0)
@@ -20,7 +20,7 @@ class MyChessBoard:
 
         self.board = cryptic_board # the chess.board =)
         self.draw_board()
-        self.game = None # optional variable for storing solutions or games
+        self.game = game # optional variable for storing solutions or games
 
         self.moveCount = 0 # count moves
         self.moveList = []
