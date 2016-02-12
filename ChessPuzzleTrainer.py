@@ -89,7 +89,7 @@ while not done:
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_r:
                         print("Reset position")
-                        boardGUI.loadNewPosition(chess.Board(currentChessPuzzle.FEN)) # load the old position again
+                        boardGUI.loadNewPosition(chess.Board(currentChessPuzzle.FEN), currentChessPuzzle.game) # load the old position again
                         boardGUI.draw_board()
                     if event.key == pygame.K_c:
                         currentChessPuzzle.markPuzzleAsSolvedCorrectly()
